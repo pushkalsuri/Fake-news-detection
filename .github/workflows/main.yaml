@@ -10,6 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    Sudo apt install python3-scipy
     steps:
       # Check-out your repository.
       - name: Checkout
